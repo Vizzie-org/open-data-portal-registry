@@ -1,0 +1,3807 @@
+{
+ "name": "open-data-portal-registry",
+ "description": "Open data portals observed by Vizzie (vizzie.org): platform, API type, terms URL, declared licences and the measured share of datasets with no declared licence.",
+ "licence": "CC BY 4.0",
+ "observed_as_at": "2026-08-12",
+ "portal_count": 289,
+ "country_count": 44,
+ "portals": [
+  {
+   "id": "kidb.adb.org",
+   "label": "ADB Key Indicators Database (Asia & the Pacific)",
+   "country": "APAC",
+   "platform": "Asian Development Bank",
+   "connector": "adb",
+   "base_url": "https://kidb.adb.org",
+   "licence_source": "ADB open access policy, generally CC-BY 3.0 IGO",
+   "auth": "None"
+  },
+  {
+   "id": "datos.gob.ar",
+   "label": "datos.gob.ar — Argentina (national)",
+   "country": "AR",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datos.gob.ar",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 701,
+    "CC-BY-4.0": 475,
+    "ODbL-1.0": 22
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "www.data.gv.at",
+   "label": "data.gv.at — Austria (national)",
+   "country": "AT",
+   "platform": "data.europa.eu",
+   "connector": "data-europa-eu",
+   "base_url": "https://www.data.gv.at",
+   "licence_source": "DCAT-AP metadata; per-dataset",
+   "auth": "None"
+  },
+  {
+   "id": "actmapi-ACTGOV.opendata.arcgis.com",
+   "label": "ACTmapi — ACT Government Geospatial Data Catalogue",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://actmapi-ACTGOV.opendata.arcgis.com",
+   "tos_url": "https://www.actmapi.act.gov.au/terms-and-conditions",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 344
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "artc-spatial-hub-ARTC.hub.arcgis.com",
+   "label": "Australian Rail Track Corporation — Spatial Data Hub",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://artc-spatial-hub-ARTC.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 10,
+    "UNDECLARED": 8
+   },
+   "undeclared_share": 0.444,
+   "auth": "None for public items"
+  },
+  {
+   "id": "catalogue.data.wa.gov.au",
+   "label": "Western Australian Government (data.wa.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://catalogue.data.wa.gov.au",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 1621,
+    "UNDECLARED": 779,
+    "CC-BY-SA-4.0": 260,
+    "CC-BY-NC": 101,
+    "CC-BY-ND": 11
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "city-maps-and-data-AlbanyWA.hub.arcgis.com",
+   "label": "City of Albany — City Maps and Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://city-maps-and-data-AlbanyWA.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 78,
+    "CC-BY-4.0": 24
+   },
+   "undeclared_share": 0.765,
+   "auth": "None for public items"
+  },
+  {
+   "id": "city-plan-stakeholder-engagement-AdelaideCity.hub.arcgis.com",
+   "label": "City of Adelaide — City Plan data hub",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://city-plan-stakeholder-engagement-AdelaideCity.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 101
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "cow-open-data-hub-CityOfWodonga.hub.arcgis.com",
+   "label": "City of Wodonga — GIS Open Resources",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://cow-open-data-hub-CityOfWodonga.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 165,
+    "UNDECLARED": 12,
+    "CC-BY-NC": 10,
+    "ODbL-1.0": 1
+   },
+   "undeclared_share": 0.064,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-cityofsydney.opendata.arcgis.com",
+   "label": "City of Sydney Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-cityofsydney.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 171,
+    "UNDECLARED": 18,
+    "CC-BY-SA-4.0": 2
+   },
+   "undeclared_share": 0.094,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-logancity.opendata.arcgis.com",
+   "label": "Logan City Council Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-logancity.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-melbournewater.opendata.arcgis.com",
+   "label": "Melbourne Water — Open Data Hub",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-melbournewater.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-SA-4.0": 44,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.022,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-tweed.opendata.arcgis.com",
+   "label": "Tweed Shire Council — Open Data Hub",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-tweed.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 47,
+    "CC-BY-4.0": 38
+   },
+   "undeclared_share": 0.553,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.api.abs.gov.au",
+   "label": "Australian Bureau of Statistics — Data API",
+   "country": "AU",
+   "platform": "ABS Data API (SDMX 2.1)",
+   "connector": "abs",
+   "base_url": "https://data.api.abs.gov.au",
+   "tos_url": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Portal-wide reuse policy (CC BY 4.0); SDMX carries no per-dataset licence field",
+   "undeclared_share": 0,
+   "auth": "None"
+  },
+  {
+   "id": "data.ballarat.vic.gov.au",
+   "label": "City of Ballarat Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.ballarat.vic.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "observed_licences": {
+    "CC-BY-3.0": 61,
+    "UNDECLARED": 56,
+    "CC-BY-3.0-AU": 1
+   },
+   "undeclared_share": 0.475,
+   "auth": "None required"
+  },
+  {
+   "id": "data.casey.vic.gov.au",
+   "label": "City of Casey Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.casey.vic.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "observed_licences": {
+    "CC-BY-3.0": 118,
+    "UNDECLARED": 19
+   },
+   "undeclared_share": 0.139,
+   "auth": "None required"
+  },
+  {
+   "id": "data.cumberland.nsw.gov.au",
+   "label": "Cumberland City Council Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.cumberland.nsw.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "observed_licences": {
+    "UNDECLARED": 20,
+    "CC-BY-4.0": 5
+   },
+   "undeclared_share": 0.8,
+   "auth": "None required"
+  },
+  {
+   "id": "data.gov.au/data",
+   "label": "data.gov.au — Australia (national)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.au/data",
+   "tos_url": "https://data.gov.au/about",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 111196,
+    "CC-BY-4.0": 23972
+   },
+   "undeclared_share": 0.706,
+   "auth": "None required"
+  },
+  {
+   "id": "data.liverpool.nsw.gov.au",
+   "label": "Liverpool City Council Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.liverpool.nsw.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "observed_licences": {
+    "CC-BY-4.0": 10,
+    "UNDECLARED": 10
+   },
+   "undeclared_share": 0.5,
+   "auth": "None required"
+  },
+  {
+   "id": "data.melbourne.vic.gov.au",
+   "label": "City of Melbourne Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.melbourne.vic.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.nsw.gov.au/data",
+   "label": "New South Wales Government (data.nsw.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.nsw.gov.au/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 11600,
+    "CC-BY-4.0": 5345,
+    "CC-BY-NC": 114,
+    "CC-BY-SA-4.0": 3
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.nt.gov.au",
+   "label": "Northern Territory Government (data.nt.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.nt.gov.au",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 1007,
+    "UNDECLARED": 65
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.sa.gov.au/data",
+   "label": "South Australian Government (data.sa.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.sa.gov.au/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 1859,
+    "CC-BY-NC": 29,
+    "CC-BY-ND": 13,
+    "UNDECLARED": 8,
+    "ODbL-1.0": 4,
+    "CC-BY-SA-4.0": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.sunshinecoast.qld.gov.au",
+   "label": "Sunshine Coast Council Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.sunshinecoast.qld.gov.au",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-3.0": 559,
+    "UNDECLARED": 196,
+    "CC-BY-4.0": 17
+   },
+   "undeclared_share": 0.254,
+   "auth": "None for public items"
+  },
+  {
+   "id": "datahub.moretonbay.qld.gov.au",
+   "label": "Moreton Bay Regional Council Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://datahub.moretonbay.qld.gov.au",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "datasets.seed.nsw.gov.au",
+   "label": "NSW SEED — Sharing and Enabling Environmental Data",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datasets.seed.nsw.gov.au",
+   "tos_url": "https://www.seed.nsw.gov.au/copyright",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 4525,
+    "UNDECLARED": 2236,
+    "CC-BY-NC": 113
+   },
+   "undeclared_share": 0.325,
+   "auth": "None required"
+  },
+  {
+   "id": "digital.atlas.gov.au",
+   "label": "Digital Atlas of Australia — Australia (national)",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://digital.atlas.gov.au",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "discover.data.vic.gov.au",
+   "label": "Victorian Government (data.vic.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://discover.data.vic.gov.au",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 5077,
+    "ODbL-1.0": 471,
+    "UNDECLARED": 34,
+    "CC-BY-SA-4.0": 11,
+    "CC-BY-NC": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "geohub-perth.opendata.arcgis.com",
+   "label": "City of Perth — Open Data Initiative",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geohub-perth.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 47,
+    "UNDECLARED": 20
+   },
+   "undeclared_share": 0.299,
+   "auth": "None for public items"
+  },
+  {
+   "id": "geoserver-123.aodn.org.au",
+   "label": "AODN — Australian Ocean Data Network (WFS)",
+   "country": "AU",
+   "platform": "OGC Web Feature Service (GeoServer)",
+   "connector": "wfs-server",
+   "base_url": "https://geoserver-123.aodn.org.au/geoserver/wfs",
+   "licence_source": "None in the service. Layer-level grants live in the institution's CSW metadata catalogue, which this connector does not yet read.",
+   "observed_licences": {
+    "UNDECLARED": 398
+   },
+   "undeclared_share": 1,
+   "auth": "None"
+  },
+  {
+   "id": "geoserver.imas.utas.edu.au",
+   "label": "IMAS — Institute for Marine and Antarctic Studies (WFS)",
+   "country": "AU",
+   "platform": "OGC Web Feature Service (GeoServer)",
+   "connector": "wfs-server",
+   "base_url": "https://geoserver.imas.utas.edu.au/geoserver/wfs",
+   "licence_source": "None in the service. Layer-level grants live in the institution's CSW metadata catalogue, which this connector does not yet read.",
+   "observed_licences": {
+    "UNDECLARED": 404
+   },
+   "undeclared_share": 1,
+   "auth": "None"
+  },
+  {
+   "id": "library-mdba.opendata.arcgis.com",
+   "label": "Murray–Darling Basin Authority — Spatial Library",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://library-mdba.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 15,
+    "UNDECLARED": 7,
+    "CC-BY-3.0": 5
+   },
+   "undeclared_share": 0.259,
+   "auth": "None for public items"
+  },
+  {
+   "id": "maps.eatlas.org.au",
+   "label": "eAtlas — Great Barrier Reef and tropical Australia (WFS)",
+   "country": "AU",
+   "platform": "OGC Web Feature Service (GeoServer)",
+   "connector": "wfs-server",
+   "base_url": "https://maps.eatlas.org.au/maps/wfs",
+   "licence_source": "None in the service. Layer-level grants live in the institution's CSW metadata catalogue, which this connector does not yet read.",
+   "observed_licences": {
+    "UNDECLARED": 1342
+   },
+   "undeclared_share": 1,
+   "auth": "None"
+  },
+  {
+   "id": "opendata.launceston.tas.gov.au",
+   "label": "City of Launceston Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.launceston.tas.gov.au",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.redland.qld.gov.au",
+   "label": "Redland City Council — Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.redland.qld.gov.au",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-SA-4.0": 41,
+    "UNDECLARED": 2
+   },
+   "undeclared_share": 0.047,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.transport.nsw.gov.au",
+   "label": "Transport for NSW Open Data",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.transport.nsw.gov.au",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 209,
+    "UNDECLARED": 2,
+    "CC-BY-SA-4.0": 1,
+    "CC-BY-NC": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.unley.sa.gov.au",
+   "label": "City of Unley — Open Data Portal",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.unley.sa.gov.au",
+   "tos_url": "https://opendata.unley.sa.gov.au/pages/help-and-support",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 33
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "portal-mainroads.opendata.arcgis.com",
+   "label": "Main Roads Western Australia — Open Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://portal-mainroads.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 690,
+    "UNDECLARED": 5
+   },
+   "undeclared_share": 0.007,
+   "auth": "None for public items"
+  },
+  {
+   "id": "portal.spatial.nsw.gov.au",
+   "label": "NSW Spatial Services — spatial data services",
+   "country": "AU",
+   "platform": "ArcGIS Server REST (no Hub site)",
+   "connector": "esri-server",
+   "base_url": "https://portal.spatial.nsw.gov.au/server/rest/services",
+   "tos_url": "https://www.spatial.nsw.gov.au/copyright",
+   "licence_source": "None declared on the services.",
+   "observed_licences": {
+    "UNDECLARED": 211
+   },
+   "undeclared_share": 1,
+   "auth": "None for public folders; four of six folders answer 'Token Required'."
+  },
+  {
+   "id": "services.thelist.tas.gov.au",
+   "label": "the LIST — Tasmanian Government spatial services",
+   "country": "AU",
+   "platform": "ArcGIS Server REST (no Hub site)",
+   "connector": "esri-server",
+   "base_url": "https://services.thelist.tas.gov.au/arcgis/rest/services",
+   "tos_url": "https://www.thelist.tas.gov.au/app/content/data/license-agreement",
+   "licence_source": "Service `copyrightText`, which on this server carries a Creative Commons deed link on 15 of 74 services and a bare ownership notice on the rest.",
+   "auth": "None for public folders."
+  },
+  {
+   "id": "spatial-brisbane.opendata.arcgis.com",
+   "label": "Brisbane City Council — Open Spatial Data",
+   "country": "AU",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://spatial-brisbane.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 3397
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "spatial-gis.information.qld.gov.au",
+   "label": "QSpatial — Queensland Government spatial services",
+   "country": "AU",
+   "platform": "ArcGIS Server REST (no Hub site)",
+   "connector": "esri-server",
+   "base_url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services",
+   "tos_url": "https://www.qld.gov.au/legal/copyright",
+   "licence_source": "None declared on the services. 156 of 158 services carry a copyrightText, every one an ownership notice (© State of Queensland (Department of Resources) 2024) with no grant.",
+   "observed_licences": {
+    "UNDECLARED": 1835
+   },
+   "undeclared_share": 1,
+   "auth": "None for public folders. 34 of 57 folders are internal applications and answer 'Token Required'; the connector skips them."
+  },
+  {
+   "id": "www.data.act.gov.au",
+   "label": "ACT Government (data.act.gov.au)",
+   "country": "AU",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://www.data.act.gov.au",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "www.data.brisbane.qld.gov.au",
+   "label": "Brisbane City Council Open Data",
+   "country": "AU",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://www.data.brisbane.qld.gov.au",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "www.data.qld.gov.au",
+   "label": "Queensland Government (data.qld.gov.au)",
+   "country": "AU",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://www.data.qld.gov.au",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 188161,
+    "UNDECLARED": 653,
+    "CC-BY-ND": 8,
+    "CC-BY-NC": 4,
+    "CC-BY-SA-4.0": 4,
+    "ODbL-1.0": 4
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.stad.gent",
+   "label": "City of Ghent Open Data",
+   "country": "BE",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.stad.gent",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.bruxelles.be",
+   "label": "City of Brussels Open Data",
+   "country": "BE",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.bruxelles.be",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "CC0-1.0": 49,
+    "CC-BY-4.0": 40,
+    "UNDECLARED": 8,
+    "CC-BY-NC": 2,
+    "CC-BY-ND": 1
+   },
+   "undeclared_share": 0.08,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "portaal-stadantwerpen.opendata.arcgis.com",
+   "label": "City of Antwerp Open Data",
+   "country": "BE",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://portaal-stadantwerpen.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "www.odwb.be",
+   "label": "Open Data Wallonie-Bruxelles (ODWB)",
+   "country": "BE",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://www.odwb.be",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "CC-BY-4.0": 47,
+    "CC0-1.0": 29,
+    "UNDECLARED": 22,
+    "CC-BY-NC": 2
+   },
+   "undeclared_share": 0.22,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "catalogue.data.gov.bc.ca",
+   "label": "British Columbia (catalogue.data.gov.bc.ca)",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://catalogue.data.gov.bc.ca",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 3327
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "ckan0.cf.opendata.inter.prod-toronto.ca",
+   "label": "City of Toronto Open Data",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 403
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data-hrm.hub.arcgis.com",
+   "label": "Halifax Regional Municipality",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-hrm.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-markham.opendata.arcgis.com",
+   "label": "City of Markham Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-markham.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 540
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.burnaby.ca",
+   "label": "City of Burnaby Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.burnaby.ca",
+   "tos_url": "https://data.burnaby.ca/pages/open-government-licence",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 73
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.calgary.ca",
+   "label": "City of Calgary Open Data",
+   "country": "CA",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.calgary.ca",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.coquitlam.ca",
+   "label": "City of Coquitlam Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.coquitlam.ca",
+   "tos_url": "https://www.coquitlam.ca/894/Open-Government-Licence",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 257
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.edmonton.ca",
+   "label": "City of Edmonton Open Data",
+   "country": "CA",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.edmonton.ca",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "observed_licences": {
+    "UNDECLARED": 1418,
+    "OGL-Canada-2.0": 3
+   },
+   "undeclared_share": 0.998,
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.mississauga.ca",
+   "label": "City of Mississauga Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.mississauga.ca",
+   "tos_url": "http://www5.mississauga.ca/research_catalogue/CityofMississauga_TermsofUse.pdf",
+   "default_licence": "MISSISSAUGA-TOU",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "MISSISSAUGA-TOU": 326,
+    "STATCAN-OPEN": 2
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.novascotia.ca",
+   "label": "Nova Scotia (data.novascotia.ca)",
+   "country": "CA",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.novascotia.ca",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ontario.ca",
+   "label": "Government of Ontario (data.ontario.ca)",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.ontario.ca",
+   "tos_url": "https://www.ontario.ca/page/open-government-licence-ontario",
+   "default_licence": "OGL-Canada-2.0",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 2952
+   },
+   "undeclared_share": 0.59,
+   "auth": "None required"
+  },
+  {
+   "id": "data.peelregion.ca",
+   "label": "Regional Municipality of Peel Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.peelregion.ca",
+   "tos_url": "https://data.peelregion.ca/pages/license",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 94,
+    "STATCAN-OPEN": 60
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.princeedwardisland.ca",
+   "label": "Prince Edward Island",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.princeedwardisland.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.winnipeg.ca",
+   "label": "City of Winnipeg Open Data",
+   "country": "CA",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.winnipeg.ca",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "donnees.montreal.ca",
+   "label": "Ville de Montréal — Données ouvertes",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://donnees.montreal.ca",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 403,
+    "UNDECLARED": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "explore.guelph.ca",
+   "label": "City of Guelph Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://explore.guelph.ca",
+   "tos_url": "https://explore.guelph.ca/pages/open-data-license",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 79
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "geohub.brampton.ca",
+   "label": "City of Brampton GeoHub",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geohub.brampton.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC-BY-4.0": 356,
+    "UNDECLARED": 145,
+    "STATCAN-OPEN": 116
+   },
+   "undeclared_share": 0.235,
+   "auth": "None for public items"
+  },
+  {
+   "id": "gos-initiative-saskatchewan.hub.arcgis.com",
+   "label": "Government of Saskatchewan Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gos-initiative-saskatchewan.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "SK-SUUDL-2.0": 334,
+    "UNDECLARED": 122
+   },
+   "undeclared_share": 0.268,
+   "auth": "None for public items"
+  },
+  {
+   "id": "insights-york.opendata.arcgis.com",
+   "label": "York Region Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://insights-york.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 546
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "mydata-kamloops.opendata.arcgis.com",
+   "label": "City of Kamloops Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://mydata-kamloops.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 225
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open-kitchenergis.opendata.arcgis.com",
+   "label": "City of Kitchener GeoHub",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open-kitchenergis.opendata.arcgis.com",
+   "tos_url": "https://www.kitchener.ca/en/council-and-city-administration/open-data-licence.aspx",
+   "default_licence": "KITCHENER-ODL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "KITCHENER-ODL": 566
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open.canada.ca/data/en",
+   "label": "open.canada.ca — Canada (national)",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://open.canada.ca/data/en",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "OGL-Canada-2.0": 35804,
+    "UNDECLARED": 11176
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "open.hamilton.ca",
+   "label": "City of Hamilton Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open.hamilton.ca",
+   "tos_url": "https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 463
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open.niagarafalls.ca",
+   "label": "City of Niagara Falls Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open.niagarafalls.ca",
+   "tos_url": "https://open.niagarafalls.ca/pages/terms-of-use",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 349
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open.niagararegion.ca",
+   "label": "Niagara Region Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open.niagararegion.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 45
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open.ottawa.ca",
+   "label": "City of Ottawa Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open.ottawa.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "open.yukon.ca",
+   "label": "Government of Yukon (open.yukon.ca)",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://open.yukon.ca",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 3840,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "opendata-abbotsford.hub.arcgis.com",
+   "label": "City of Abbotsford Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata-abbotsford.hub.arcgis.com",
+   "tos_url": "https://opendata-abbotsford.hub.arcgis.com/pages/city-of-abbotsford-open-data-licence",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 192
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata-surrey.hub.arcgis.com",
+   "label": "City of Surrey Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata-surrey.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 225
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.barrie.ca",
+   "label": "City of Barrie Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.barrie.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 131
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.durham.ca",
+   "label": "Regional Municipality of Durham Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.durham.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 384,
+    "CC-BY-SA-4.0": 1
+   },
+   "undeclared_share": 0.997,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.gov.nt.ca",
+   "label": "Northwest Territories (opendata.gov.nt.ca)",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.gov.nt.ca",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 340,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.003,
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.kelowna.ca",
+   "label": "City of Kelowna Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.kelowna.ca",
+   "tos_url": "http://apps.kelowna.ca/images/opendata/opengovernmentlicence.pdf",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 282
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.london.ca",
+   "label": "City of London Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.london.ca",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 232
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.vancouver.ca",
+   "label": "City of Vancouver Open Data",
+   "country": "CA",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.vancouver.ca",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.victoria.ca",
+   "label": "City of Victoria Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.victoria.ca",
+   "tos_url": "https://opendata.victoria.ca/pages/open-data-licence",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 501,
+    "STATCAN-OPEN": 3
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "portal-exploreoakville.opendata.arcgis.com",
+   "label": "Town of Oakville Open Data",
+   "country": "CA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://portal-exploreoakville.opendata.arcgis.com",
+   "tos_url": "https://www.oakville.ca/town-hall/town-studies-plans-projects/town-initiatives/open-data/open-data-licence/",
+   "default_licence": "OGL-CA-PROVINCIAL",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "OGL-CA-PROVINCIAL": 166
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "www.donneesquebec.ca/recherche",
+   "label": "Données Québec",
+   "country": "CA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://www.donneesquebec.ca/recherche",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 1568,
+    "CC-BY-NC": 23,
+    "UNDECLARED": 15,
+    "CC-BY-SA-4.0": 8,
+    "CC0-1.0": 4,
+    "CC-BY-ND": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.bs.ch",
+   "label": "Canton of Basel-Stadt Open Data",
+   "country": "CH",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.bs.ch",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "CC-BY-4.0": 85,
+    "UNDECLARED": 14,
+    "CC0-1.0": 1
+   },
+   "undeclared_share": 0.14,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.stadt-zuerich.ch",
+   "label": "City of Zurich (data.stadt-zuerich.ch)",
+   "country": "CH",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.stadt-zuerich.ch",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC0-1.0": 907,
+    "CC-BY-SA-4.0": 16,
+    "CC-BY-4.0": 13,
+    "UNDECLARED": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.tg.ch",
+   "label": "Canton of Thurgau Open Data",
+   "country": "CH",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.tg.ch",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "CC-BY-4.0": 68,
+    "CC0-1.0": 32
+   },
+   "undeclared_share": 0,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.swiss",
+   "label": "opendata.swiss — Switzerland (national)",
+   "country": "CH",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.swiss",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "auth": "None required"
+  },
+  {
+   "id": "datos.gob.cl",
+   "label": "datos.gob.cl — Chile (national)",
+   "country": "CL",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datos.gob.cl",
+   "tos_url": "https://datos.gob.cl/pages/politica-de-privacidad",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-NC": 1310,
+    "CC-BY-4.0": 921,
+    "CC0-1.0": 464,
+    "PDDL-1.0": 375,
+    "ODC-BY-1.0": 53,
+    "ODbL-1.0": 54,
+    "UNDECLARED": 23,
+    "US-PD": 1
+   },
+   "undeclared_share": 0.007,
+   "auth": "None"
+  },
+  {
+   "id": "datos.gov.co",
+   "label": "datos.gov.co — Colombia (national)",
+   "country": "CO",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://www.datos.gov.co",
+   "tos_url": "https://www.datos.gov.co/stories/s/tw96-8ph6",
+   "licence_source": "Per-dataset `metadata.license` via the Socrata Discovery API",
+   "observed_licences": {
+    "CC-BY-SA-4.0": 112
+   },
+   "auth": "None (SOCRATA_APP_TOKEN raises the rate limit)"
+  },
+  {
+   "id": "data.brno.cz",
+   "label": "City of Brno Open Data",
+   "country": "CZ",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.brno.cz",
+   "licence_source": "Item `license` field in the DCAT-US /data.json feed — free text, often HTML",
+   "observed_licences": {
+    "UNDECLARED": 227,
+    "CC-BY-4.0": 160,
+    "CC-BY-SA-4.0": 13
+   },
+   "undeclared_share": 0.568,
+   "auth": "None for public items"
+  },
+  {
+   "id": "ckan.govdata.de",
+   "label": "GovData — Germany (national)",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://ckan.govdata.de",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 1226
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "datenregister.berlin.de",
+   "label": "Berlin Open Data (daten.berlin.de)",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datenregister.berlin.de",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 1636,
+    "CC-BY-4.0": 856,
+    "CC0-1.0": 52,
+    "DL-DE-BY-2.0": 44,
+    "CC-BY-SA-4.0": 36
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "open.nrw",
+   "label": "Open.NRW — North Rhine-Westphalia",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://open.nrw",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "DL-DE-0-2.0": 182,
+    "DL-DE-BY-2.0": 18
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.muenchen.de",
+   "label": "Munich Open Data (opendata.muenchen.de)",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.muenchen.de",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 325,
+    "CC-BY-4.0": 7,
+    "CC0-1.0": 3,
+    "ODbL-1.0": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.stuttgart.de",
+   "label": "Stuttgart Open Data",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.stuttgart.de",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 139
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "suche.transparenz.hamburg.de",
+   "label": "Hamburg Transparency Portal (transparenz.hamburg.de)",
+   "country": "DE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://suche.transparenz.hamburg.de",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "DL-DE-BY-2.0": 234159,
+    "CC0-1.0": 2057,
+    "UNDECLARED": 310,
+    "ODbL-1.0": 59
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "portal.opendata.dk",
+   "label": "Open Data DK — Danish municipalities",
+   "country": "DK",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://portal.opendata.dk",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 149,
+    "UNDECLARED": 45,
+    "CC0-1.0": 6
+   },
+   "undeclared_share": 0.225,
+   "auth": "None required"
+  },
+  {
+   "id": "datos.madrid.es",
+   "label": "Madrid Open Data (datos.madrid.es)",
+   "country": "ES",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datos.madrid.es",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 641,
+    "UNDECLARED": 31
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "datosabiertos.malaga.eu",
+   "label": "Málaga Open Data",
+   "country": "ES",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://datosabiertos.malaga.eu",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-SA-4.0": 143,
+    "CC-BY-SA-3.0-ES": 55,
+    "CC-BY-4.0": 2
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "opendata-ajuntament.barcelona.cat/data",
+   "label": "Barcelona Open Data (Ajuntament de Barcelona)",
+   "country": "ES",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata-ajuntament.barcelona.cat/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 555
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.europa.eu",
+   "label": "data.europa.eu — European Data Portal (EU and beyond)",
+   "country": "EU",
+   "platform": "data.europa.eu",
+   "connector": "data-europa-eu",
+   "base_url": "https://data.europa.eu",
+   "licence_source": "DCAT-AP metadata; per-dataset",
+   "auth": "None"
+  },
+  {
+   "id": "ec.europa.eu/eurostat",
+   "label": "Eurostat — statistics by NUTS region (EU, EFTA and candidates)",
+   "country": "EU",
+   "platform": "Eurostat dissemination API",
+   "connector": "eurostat",
+   "base_url": "https://ec.europa.eu/eurostat/api/dissemination",
+   "tos_url": "https://ec.europa.eu/eurostat/about-us/policies/copyright",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Portal-wide reuse policy (CC BY 4.0); no per-dataset licence field in the API",
+   "auth": "None"
+  },
+  {
+   "id": "data.tampere.fi/data",
+   "label": "City of Tampere Open Data",
+   "country": "FI",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.tampere.fi/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 99,
+    "CC0-1.0": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "hri.fi/data",
+   "label": "Helsinki Region Infoshare (hri.fi)",
+   "country": "FI",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://hri.fi/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 546,
+    "CC0-1.0": 1,
+    "ODbL-1.0": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "pxdata.stat.fi/PXWeb/api/v1/en/StatFin",
+   "label": "Statistics Finland — StatFin database",
+   "country": "FI",
+   "platform": "PXWeb statistics database",
+   "connector": "pxweb",
+   "base_url": "https://pxdata.stat.fi/PXWeb/api/v1/en/StatFin",
+   "tos_url": "https://stat.fi/org/lainsaadanto/copyright_en.html",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Portal default only — PXWeb exposes no per-table licence field",
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "www.avoindata.fi/data",
+   "label": "avoindata.fi — Finland (national)",
+   "country": "FI",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://www.avoindata.fi/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 2160,
+    "UNDECLARED": 379,
+    "CC-BY-SA-4.0": 9,
+    "US-PD": 3
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.angers.fr",
+   "label": "Angers Loire Métropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.angers.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "ODbL-1.0": 96,
+    "LO-2.0": 4
+   },
+   "undeclared_share": 0,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.bretagne.bzh",
+   "label": "Brittany Region Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.bretagne.bzh",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "LO-2.0": 88,
+    "ODbL-1.0": 6,
+    "UNDECLARED": 4,
+    "LO-1.0": 2
+   },
+   "undeclared_share": 0.04,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.grandparissud.fr",
+   "label": "Grand Paris Sud Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.grandparissud.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "UNDECLARED": 61,
+    "LO-2.0": 35,
+    "ODbL-1.0": 3,
+    "LO-1.0": 1
+   },
+   "undeclared_share": 0.61,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.iledefrance.fr",
+   "label": "Île-de-France Region Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.iledefrance.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "LO-2.0": 76,
+    "ODbL-1.0": 22,
+    "CC-BY-NC": 1,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.01,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.laregion.fr",
+   "label": "Occitanie Region Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.laregion.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "LO-2.0": 97,
+    "ODbL-1.0": 2,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.01,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.nantesmetropole.fr",
+   "label": "Nantes Métropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.nantesmetropole.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.rennesmetropole.fr",
+   "label": "Rennes Métropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.rennesmetropole.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.strasbourg.eu",
+   "label": "Strasbourg / Eurométropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.strasbourg.eu",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "LO-2.0": 96,
+    "UNDECLARED": 3,
+    "ODbL-1.0": 1
+   },
+   "undeclared_share": 0.03,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.toulouse-metropole.fr",
+   "label": "Toulouse Métropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.toulouse-metropole.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.bordeaux-metropole.fr",
+   "label": "Bordeaux Métropole Open Data",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.bordeaux-metropole.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.paris.fr",
+   "label": "Paris Open Data (opendata.paris.fr)",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.paris.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "opendata.reseaux-energies.fr",
+   "label": "Open Data Réseaux Énergies — France (energy networks)",
+   "country": "FR",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.reseaux-energies.fr",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "LO-2.0": 100
+   },
+   "undeclared_share": 0,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "www.data.gouv.fr",
+   "label": "data.gouv.fr — France (national)",
+   "country": "FR",
+   "platform": "uData (data.gouv.fr family)",
+   "connector": "udata",
+   "base_url": "https://www.data.gouv.fr",
+   "licence_source": "Per-dataset `license` field",
+   "auth": "None"
+  },
+  {
+   "id": "api.os.uk",
+   "label": "Ordnance Survey Data Hub — United Kingdom (national reference geography)",
+   "country": "GB",
+   "platform": "Ordnance Survey Data Hub",
+   "connector": "os-data-hub",
+   "base_url": "https://api.os.uk",
+   "licence_source": "Product-level licence; OS OpenData under OGL",
+   "auth": "API key required"
+  },
+  {
+   "id": "data.gov.uk",
+   "label": "data.gov.uk — United Kingdom (national)",
+   "country": "GB",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.uk",
+   "tos_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+   "default_licence": "OGL-UK-3.0",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "OGL-UK-3.0": 21797,
+    "CC-BY-4.0": 1066,
+    "UNDECLARED": 193,
+    "CC-BY-NC": 51,
+    "CC0-1.0": 17,
+    "US-PD": 13
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.london.gov.uk",
+   "label": "London Datastore (Greater London Authority)",
+   "country": "GB",
+   "platform": "London Datastore",
+   "connector": "london-datastore",
+   "base_url": "https://data.london.gov.uk",
+   "licence_source": "Mostly UK OGL",
+   "auth": "None"
+  },
+  {
+   "id": "geoportal.statistics.gov.uk",
+   "label": "ONS Open Geography Portal — UK boundaries & lookups",
+   "country": "GB",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geoportal.statistics.gov.uk",
+   "tos_url": "https://www.ons.gov.uk/methodology/geography/licences",
+   "default_licence": "OGL-UK-3.0",
+   "licence_source": "Per-dataset licence field, which on every record is the ONS geography licences page URL (often HTML-wrapped); portal default carries it",
+   "observed_licences": {
+    "OGL-UK-3.0": 3405
+   },
+   "undeclared_share": 0.02,
+   "auth": "None"
+  },
+  {
+   "id": "opendata.bristol.gov.uk",
+   "label": "Bristol City Council Open Data",
+   "country": "GB",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.bristol.gov.uk",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.camden.gov.uk",
+   "label": "London Borough of Camden",
+   "country": "GB",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://opendata.camden.gov.uk",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.gov.gr",
+   "label": "data.gov.gr — Greece (national)",
+   "country": "GR",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.gr",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 3716,
+    "ODbL-1.0": 2240,
+    "CC-BY-NC": 928,
+    "CC-BY-4.0": 457,
+    "CC-BY-SA-4.0": 148,
+    "US-PD": 118
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data-esrihk.opendata.arcgis.com",
+   "label": "Hong Kong Open Geospatial Data (Esri China)",
+   "country": "HK",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-esrihk.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 3217
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.corkcity.ie",
+   "label": "Cork City Council Open Data",
+   "country": "IE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.corkcity.ie",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 30,
+    "CC-BY-SA-4.0": 3,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.029,
+   "auth": "None required"
+  },
+  {
+   "id": "data.gov.ie",
+   "label": "data.gov.ie — Ireland (national)",
+   "country": "IE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.ie",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 21866,
+    "CC-BY-SA-4.0": 429,
+    "CC-BY-NC": 72,
+    "CC0-1.0": 28,
+    "UNDECLARED": 28
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.smartdublin.ie",
+   "label": "Smart Dublin Open Data",
+   "country": "IE",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.smartdublin.ie",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 899,
+    "CC0-1.0": 27,
+    "CC-BY-NC": 2,
+    "ODbL-1.0": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.gov.il",
+   "label": "data.gov.il — Israel (national)",
+   "country": "IL",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.il",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 960,
+    "CC-BY-4.0": 238,
+    "CC-BY-NC": 1
+   },
+   "undeclared_share": 0.801,
+   "auth": "None required"
+  },
+  {
+   "id": "ap.data.gov.in",
+   "label": "Andhra Pradesh Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://ap.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "api.data.gov.in?source=data.gov.in",
+   "label": "data.gov.in — India (national OGD platform)",
+   "country": "IN",
+   "platform": "data.gov.in",
+   "connector": "data-gov-in",
+   "base_url": "https://api.data.gov.in?source=data.gov.in",
+   "licence_source": "Government Open Data Licence – India",
+   "auth": "API key required"
+  },
+  {
+   "id": "ckan.indiadataportal.com",
+   "label": "IndiaDataPortal — ISB (district & state indicators)",
+   "country": "IN",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://ckan.indiadataportal.com",
+   "tos_url": "https://indiadataportal.com/terms-of-use",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "ODC-BY-1.0": 64,
+    "UNDECLARED": 28
+   },
+   "undeclared_share": 0.304,
+   "auth": "None required"
+  },
+  {
+   "id": "data.opencity.in",
+   "label": "OpenCity — India (urban/civic data, multiple cities)",
+   "country": "IN",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.opencity.in",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "US-PD": 731,
+    "CC-BY-NC": 50,
+    "UNDECLARED": 34,
+    "CC-BY-SA-4.0": 10,
+    "CC0-1.0": 7,
+    "ODbL-1.0": 3,
+    "CC-BY-4.0": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "justicehub.in",
+   "label": "JusticeHub — India (justice-sector data)",
+   "country": "IN",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://justicehub.in",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 172,
+    "UNDECLARED": 8,
+    "PDDL-1.0": 7,
+    "CC0-1.0": 4,
+    "CC-BY-SA-4.0": 3,
+    "ODC-BY-1.0": 3,
+    "CC-BY-NC-ND": 2,
+    "CC-BY-NC": 1,
+    "CC-BY-ND": 1
+   },
+   "undeclared_share": 0.04,
+   "auth": "None required"
+  },
+  {
+   "id": "karnataka.data.gov.in",
+   "label": "Karnataka Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://karnataka.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "kerala.data.gov.in",
+   "label": "Kerala Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://kerala.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "odisha.data.gov.in",
+   "label": "Odisha Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://odisha.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "punjab.data.gov.in",
+   "label": "Punjab Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://punjab.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "sikkim.data.gov.in",
+   "label": "Sikkim Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://sikkim.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "smartcities.data.gov.in",
+   "label": "Smart Cities Mission Data Portal (95 cities)",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://smartcities.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "tn.data.gov.in",
+   "label": "Tamil Nadu Open Data",
+   "country": "IN",
+   "platform": "data.gov.in (DMS)",
+   "connector": "data-gov-in-dms",
+   "base_url": "https://tn.data.gov.in",
+   "licence_source": "GODL-India",
+   "auth": "API key required"
+  },
+  {
+   "id": "aperto.comune.torino.it",
+   "label": "Città di Torino — Aperto",
+   "country": "IT",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://aperto.comune.torino.it",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 196,
+    "UNDECLARED": 2,
+    "CC-BY-SA-4.0": 2
+   },
+   "undeclared_share": 0.01,
+   "auth": "None required"
+  },
+  {
+   "id": "dati.emilia-romagna.it",
+   "label": "Regione Emilia-Romagna Open Data",
+   "country": "IT",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://dati.emilia-romagna.it",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 177,
+    "PUBLIC-DOMAIN": 15,
+    "UNDECLARED": 6,
+    "CC0-1.0": 2
+   },
+   "undeclared_share": 0.03,
+   "auth": "None required"
+  },
+  {
+   "id": "dati.lombardia.it",
+   "label": "Regione Lombardia Open Data",
+   "country": "IT",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://dati.lombardia.it",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "observed_licences": {
+    "CC0-1.0": 63,
+    "CC-BY-4.0": 34,
+    "UNDECLARED": 3
+   },
+   "undeclared_share": 0.03,
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "dati.toscana.it",
+   "label": "Regione Toscana Open Data",
+   "country": "IT",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://dati.toscana.it",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 198,
+    "CC0-1.0": 1,
+    "ODC-BY-1.0": 1
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.comune.bologna.it",
+   "label": "Comune di Bologna Open Data",
+   "country": "IT",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://opendata.comune.bologna.it",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2",
+   "observed_licences": {
+    "CC-BY-4.0": 98,
+    "CC0-1.0": 1,
+    "UNDECLARED": 1
+   },
+   "undeclared_share": 0.01,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "www.dati.gov.it/opendata",
+   "label": "dati.gov.it — Italy (national)",
+   "country": "IT",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://www.dati.gov.it/opendata",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 60979,
+    "UNDECLARED": 4155,
+    "US-PD": 8,
+    "CC0-1.0": 7
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "catalog.data.metro.tokyo.lg.jp",
+   "label": "Tokyo Metropolitan Government Open Data",
+   "country": "JP",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://catalog.data.metro.tokyo.lg.jp",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 9645,
+    "UNDECLARED": 2,
+    "CC-BY-NC": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.bodik.jp",
+   "label": "BODIK — Japan (national open data aggregator)",
+   "country": "JP",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.bodik.jp",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 17272,
+    "UNDECLARED": 989
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.city.yokohama.lg.jp",
+   "label": "City of Yokohama Open Data",
+   "country": "JP",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.city.yokohama.lg.jp",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 656
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.e-gov.go.jp",
+   "label": "e-Gov データポータル — Japan (national)",
+   "country": "JP",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.e-gov.go.jp/data",
+   "tos_url": "https://data.e-gov.go.jp/info/ja/terms",
+   "default_licence": "PDL-1.0-JP",
+   "licence_source": "Portal-wide terms of use; no per-dataset licence field is populated (100 of 100 sampled records had license_id null)",
+   "undeclared_share": 1,
+   "auth": "None"
+  },
+  {
+   "id": "data.public.lu",
+   "label": "data.public.lu — Luxembourg (national)",
+   "country": "LU",
+   "platform": "uData (data.gouv.fr family)",
+   "connector": "udata",
+   "base_url": "https://data.public.lu",
+   "licence_source": "Per-dataset `license` field",
+   "auth": "None"
+  },
+  {
+   "id": "data.gov.lv",
+   "label": "data.gov.lv — Latvia (national)",
+   "country": "LV",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.lv",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC0-1.0": 1420,
+    "CC-BY-4.0": 121
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.gouv.nc",
+   "label": "Open Data NC — New Caledonia (territory)",
+   "country": "NC",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.gouv.nc",
+   "tos_url": "https://data.gouv.nc/pages/conditions-generales-dutilisation/",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "observed_licences": {
+    "Licence Ouverte v2.0": 286,
+    "CC BY-NC-ND 4.0": 5,
+    "CC BY 4.0": 1,
+    "Licence Ouverte v2.0 (Etalab)": 1
+   },
+   "undeclared_share": 0.229,
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.overheid.nl/data",
+   "label": "data.overheid.nl — Netherlands (national)",
+   "country": "NL",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.overheid.nl/data",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 8688,
+    "UNDECLARED": 5703,
+    "CC0-1.0": 5410
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.rdw.nl",
+   "label": "RDW Open Data — Netherlands (vehicle registry)",
+   "country": "NL",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://opendata.rdw.nl",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "observed_licences": {
+    "UNDECLARED": 51,
+    "PUBLIC-DOMAIN": 49
+   },
+   "undeclared_share": 0.51,
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ssb.no/api/v0/en/table",
+   "label": "Statistics Norway (SSB) — StatBank",
+   "country": "NO",
+   "platform": "PXWeb statistics database",
+   "connector": "pxweb",
+   "base_url": "https://data.ssb.no/api/v0/en/table",
+   "tos_url": "https://www.ssb.no/en/api",
+   "default_licence": "CC-BY-4.0",
+   "licence_source": "Portal default only — PXWeb exposes no per-table licence field",
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "statistikkbanken.oslo.kommune.no/statbank/api/v1/no/db1",
+   "label": "Oslo kommune — Statistikkbanken",
+   "country": "NO",
+   "platform": "PXWeb statistics database",
+   "connector": "pxweb",
+   "base_url": "https://statistikkbanken.oslo.kommune.no/statbank/api/v1/no/db1",
+   "tos_url": "https://data.norge.no/datasets/fc22c19b-5347-3b20-aa1b-ae534f178f57",
+   "default_licence": "NLOD-2.0",
+   "licence_source": "Portal default only — PXWeb exposes no per-table licence field",
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "catalogue.data.govt.nz",
+   "label": "data.govt.nz — New Zealand (national)",
+   "country": "NZ",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://catalogue.data.govt.nz",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 13698,
+    "UNDECLARED": 11863,
+    "CC-BY-NC": 176,
+    "CC0-1.0": 124,
+    "CC-BY-ND": 66
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data-aucklandcouncil.opendata.arcgis.com",
+   "label": "Auckland Council Open Data",
+   "country": "NZ",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-aucklandcouncil.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-wcc.opendata.arcgis.com",
+   "label": "Wellington City Council Open Data",
+   "country": "NZ",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-wcc.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata-christchurchcity.hub.arcgis.com",
+   "label": "Christchurch City Council Open Data",
+   "country": "NZ",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata-christchurchcity.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.canterburymaps.govt.nz",
+   "label": "Canterbury Maps (regional)",
+   "country": "NZ",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.canterburymaps.govt.nz",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "pacificdata.org/data",
+   "label": "Pacific Data Hub — Pacific Community (SPC) (regional)",
+   "country": "PACIFIC",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://pacificdata.org/data",
+   "tos_url": "https://pacificdata.org/terms-of-use",
+   "licence_source": "Per-dataset `license_id` via package_search / package_show",
+   "observed_licences": {
+    "notspecified": 11546,
+    "sprep-public-license": 1474,
+    "cc-nc-sa-4.0": 437,
+    "LOv2.0": 286,
+    "other-open": 204,
+    "other-closed": 148,
+    "cc-by": 98,
+    "not-specified": 41,
+    "Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License": 41,
+    "Public Domain (CC0 1.0)": 28,
+    "cc-nc-4.0": 14,
+    "Creative Commons Attribution (CC-BY) 4.0 License": 14,
+    "other-pd": 11,
+    "odc-odbl": 10,
+    "odc-by": 10,
+    "other-nc": 8,
+    "cc-by-sa": 5
+   },
+   "undeclared_share": 0.805,
+   "auth": "None required"
+  },
+  {
+   "id": "otwartedane.gdynia.pl",
+   "label": "Gdynia Open Data",
+   "country": "PL",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://otwartedane.gdynia.pl",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 200
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "dados.gov.pt",
+   "label": "dados.gov.pt — Portugal (national)",
+   "country": "PT",
+   "platform": "uData (data.gouv.fr family)",
+   "connector": "udata",
+   "base_url": "https://dados.gov.pt",
+   "licence_source": "Per-dataset `license` field",
+   "auth": "None"
+  },
+  {
+   "id": "www.datos.gov.py",
+   "label": "datos.gov.py — Paraguay (national)",
+   "country": "PY",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://www.datos.gov.py",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 434
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.gov.ro",
+   "label": "data.gov.ro — Romania (national)",
+   "country": "RO",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.ro",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 3310,
+    "OGL-UK-3.0": 1704,
+    "UNDECLARED": 63,
+    "ODbL-1.0": 2,
+    "US-PD": 2,
+    "CC-BY-NC": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "rwanda.africageoportal.com",
+   "label": "Rwanda GeoPortal",
+   "country": "RW",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://rwanda.africageoportal.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 345,
+    "ODbL-1.0": 12,
+    "CC-BY-4.0": 7
+   },
+   "undeclared_share": 0.948,
+   "auth": "None for public items"
+  },
+  {
+   "id": "api.scb.se/OV0104/v1/doris/en/ssd",
+   "label": "Statistics Sweden (SCB) — Statistical Database",
+   "country": "SE",
+   "platform": "PXWeb statistics database",
+   "connector": "pxweb",
+   "base_url": "https://api.scb.se/OV0104/v1/doris/en/ssd",
+   "tos_url": "https://www.scb.se/en/services/open-data-api/",
+   "default_licence": "CC0-1.0",
+   "licence_source": "Portal default only — PXWeb exposes no per-table licence field",
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "data.gov.sg",
+   "label": "data.gov.sg — Singapore (national)",
+   "country": "SG",
+   "platform": "data.gov.sg",
+   "connector": "data-gov-sg",
+   "base_url": "https://data.gov.sg",
+   "licence_source": "Singapore Open Data Licence 1.0",
+   "auth": "None"
+  },
+  {
+   "id": "podatki.gov.si",
+   "label": "podatki.gov.si — Slovenia (national)",
+   "country": "SI",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://podatki.gov.si",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 8159
+   },
+   "undeclared_share": 1,
+   "auth": "None required"
+  },
+  {
+   "id": "data.gov.ua",
+   "label": "data.gov.ua — Ukraine (national)",
+   "country": "UA",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.gov.ua",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 200
+   },
+   "undeclared_share": 0,
+   "auth": "None required"
+  },
+  {
+   "id": "api.dhsprogram.com",
+   "label": "DHS Program (demographic & health surveys, developing world)",
+   "country": "UN",
+   "platform": "DHS Program",
+   "connector": "dhs",
+   "base_url": "https://api.dhsprogram.com",
+   "tos_url": "https://spatialdata.dhsprogram.com/data/",
+   "default_licence": "ODbL-1.0",
+   "licence_source": "Spatial Data Repository licence (ODbL) for aggregates; DHS data-use agreement for microdata",
+   "auth": "Registration required for microdata"
+  },
+  {
+   "id": "data.humdata.org",
+   "label": "UN OCHA — Humanitarian Data Exchange (global)",
+   "country": "UN",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.humdata.org",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 14749,
+    "CC-BY-4.0": 10157,
+    "CC-BY-SA-4.0": 2382,
+    "ODbL-1.0": 232
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.nasa.gov",
+   "label": "NASA Open Data (data.nasa.gov)",
+   "country": "UN",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.nasa.gov",
+   "tos_url": "https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/",
+   "default_licence": "US-PD",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 29351,
+    "US-PD": 6880,
+    "CC0-1.0": 1
+   },
+   "undeclared_share": 0.81,
+   "auth": "None required"
+  },
+  {
+   "id": "dataverse.harvard.edu",
+   "label": "Harvard Dataverse — research data (global)",
+   "country": "UN",
+   "platform": "Dataverse (research repositories)",
+   "connector": "dataverse",
+   "base_url": "https://dataverse.harvard.edu",
+   "tos_url": "https://dataverse.org/best-practices/harvard-dataverse-general-terms-use",
+   "licence_source": "Per-dataset terms block; often CC0 but frequently custom/restricted",
+   "auth": "None for public"
+  },
+  {
+   "id": "ddh-openapi.worldbank.org",
+   "label": "World Bank Data Catalog (global development data)",
+   "country": "UN",
+   "platform": "World Bank Open Data",
+   "connector": "world-bank",
+   "base_url": "https://ddh-openapi.worldbank.org",
+   "licence_source": "Portal-wide CC-BY 4.0",
+   "auth": "None"
+  },
+  {
+   "id": "ghoapi.azureedge.net",
+   "label": "WHO Global Health Observatory (health indicators, all countries)",
+   "country": "UN",
+   "platform": "WHO Global Health Observatory",
+   "connector": "who-gho",
+   "base_url": "https://ghoapi.azureedge.net",
+   "licence_source": "Portal-wide CC-BY-NC-SA for some indicators",
+   "auth": "None"
+  },
+  {
+   "id": "ourworldindata.org",
+   "label": "Our World in Data — Oxford University (global development & health)",
+   "country": "UN",
+   "platform": "Our World in Data",
+   "connector": "owid",
+   "base_url": "https://ourworldindata.org",
+   "licence_source": "OWID content CC-BY; underlying sources vary",
+   "auth": "None"
+  },
+  {
+   "id": "sdmx.data.unicef.org/ws/public/sdmxapi",
+   "label": "UNICEF Data Warehouse (child health, education, poverty)",
+   "country": "UN",
+   "platform": "UNICEF Data",
+   "connector": "unicef",
+   "base_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi",
+   "licence_source": "UNICEF terms",
+   "auth": "None"
+  },
+  {
+   "id": "sdmx.oecd.org/public",
+   "label": "OECD Data Portal (economy, education, health, environment)",
+   "country": "UN",
+   "platform": "OECD SDMX",
+   "connector": "oecd",
+   "base_url": "https://sdmx.oecd.org/public",
+   "licence_source": "Portal-wide OECD Terms",
+   "auth": "None"
+  },
+  {
+   "id": "unstats.un.org/sdgapi",
+   "label": "UN SDG Global Database (Sustainable Development Goals indicators)",
+   "country": "UN",
+   "platform": "UN SDG Global Database",
+   "connector": "un-sdg",
+   "base_url": "https://unstats.un.org/sdgapi",
+   "licence_source": "UN terms; generally free re-use with attribution",
+   "auth": "None"
+  },
+  {
+   "id": "alic-algeohub.hub.arcgis.com",
+   "label": "Alabama Location Intelligence Collaboration Hub (ALIC)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://alic-algeohub.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 417
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "api.census.gov",
+   "label": "US Census Bureau — ACS & Decennial (by tract)",
+   "country": "US",
+   "platform": "US Census Bureau API",
+   "connector": "census",
+   "base_url": "https://api.census.gov",
+   "tos_url": "https://www.census.gov/data/developers/about/terms-of-service.html",
+   "default_licence": "US-PD",
+   "licence_source": "US federal statistical data; public domain (17 U.S.C. §105)",
+   "auth": "API key required (CENSUS_API_KEY)"
+  },
+  {
+   "id": "azgeo.az.gov",
+   "label": "Arizona Geospatial Hub (AZGeo)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://azgeo.az.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 1372,
+    "CC-BY-4.0": 166,
+    "CC-BY-SA-4.0": 1
+   },
+   "undeclared_share": 0.891,
+   "auth": "None for public items"
+  },
+  {
+   "id": "catalog.data.gov",
+   "label": "Data.gov — United States (national)",
+   "country": "US",
+   "platform": "CKAN (catalog.data.gov)",
+   "connector": "datagov",
+   "base_url": "https://catalog.data.gov",
+   "tos_url": "https://data.gov/about/",
+   "default_licence": "US-PD",
+   "licence_source": "Per-dataset; US federal works are public domain",
+   "auth": "api.data.gov key recommended for some agency endpoints"
+  },
+  {
+   "id": "city-tampa.opendata.arcgis.com",
+   "label": "City of Tampa",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://city-tampa.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-bmc.opendata.arcgis.com",
+   "label": "BMC — Baltimore Metropolitan Council",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-bmc.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 73
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-nctcoggis.hub.arcgis.com",
+   "label": "NCTCOG — North Central Texas Council of Governments",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-nctcoggis.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-ocpw.opendata.arcgis.com",
+   "label": "Orange County, CA (OC Public Works)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-ocpw.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 876,
+    "CC0-1.0": 57
+   },
+   "undeclared_share": 0.939,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-usdot.opendata.arcgis.com",
+   "label": "US DOT — National Transportation Atlas",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-usdot.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data-wfrc.opendata.arcgis.com",
+   "label": "WFRC — Wasatch Front Regional Council",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data-wfrc.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 134,
+    "CC0-1.0": 3
+   },
+   "undeclared_share": 0.978,
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.austintexas.gov",
+   "label": "City of Austin",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.austintexas.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.baltimorecity.gov",
+   "label": "City of Baltimore",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.baltimorecity.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.boston.gov",
+   "label": "City of Boston (Analyze Boston)",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.boston.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "PDDL-1.0": 219,
+    "UNDECLARED": 14,
+    "ODbL-1.0": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.buffalony.gov",
+   "label": "City of Buffalo",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.buffalony.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ca.gov",
+   "label": "State of California (data.ca.gov)",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.ca.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 3951,
+    "UNDECLARED": 108,
+    "US-PD": 78,
+    "CC0-1.0": 11,
+    "ODbL-1.0": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.cambridgema.gov",
+   "label": "City of Cambridge, MA",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.cambridgema.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.cdc.gov",
+   "label": "CDC (data.cdc.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.cdc.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.charlottenc.gov",
+   "label": "City of Charlotte",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.charlottenc.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.cincinnati-oh.gov",
+   "label": "City of Cincinnati",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.cincinnati-oh.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.cityofchicago.org",
+   "label": "City of Chicago",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.cityofchicago.org",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.cityofnewyork.us",
+   "label": "NYC Open Data",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.cityofnewyork.us",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.cityofsacramento.org",
+   "label": "City of Sacramento",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.cityofsacramento.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.colorado.gov",
+   "label": "State of Colorado (data.colorado.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.colorado.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ct.gov",
+   "label": "State of Connecticut (data.ct.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.ct.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.delaware.gov",
+   "label": "State of Delaware (data.delaware.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.delaware.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.detroitmi.gov",
+   "label": "City of Detroit",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.detroitmi.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.fortworthtexas.gov",
+   "label": "City of Fort Worth",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.fortworthtexas.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.hartford.gov",
+   "label": "City of Hartford",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.hartford.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.honolulu.gov",
+   "label": "City & County of Honolulu",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.honolulu.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.illinois.gov",
+   "label": "State of Illinois (data.illinois.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.illinois.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.indy.gov",
+   "label": "City of Indianapolis",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.indy.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.kcmo.org",
+   "label": "City of Kansas City, MO",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.kcmo.org",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.kingcounty.gov",
+   "label": "King County, WA",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.kingcounty.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.lacity.org",
+   "label": "City of Los Angeles",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.lacity.org",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.longbeach.gov",
+   "label": "City of Long Beach",
+   "country": "US",
+   "platform": "OpenDataSoft",
+   "connector": "opendatasoft",
+   "base_url": "https://data.longbeach.gov",
+   "licence_source": "Dataset metadata `license` / `license_url` via Explore API v2.1",
+   "auth": "Optional API key raises quota"
+  },
+  {
+   "id": "data.louisvilleky.gov",
+   "label": "Louisville Metro Open Data",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.louisvilleky.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.memphistn.gov",
+   "label": "City of Memphis",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.memphistn.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.michigan.gov",
+   "label": "State of Michigan (data.michigan.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.michigan.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.milwaukee.gov",
+   "label": "City of Milwaukee",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.milwaukee.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 179,
+    "US-PD": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.mo.gov",
+   "label": "State of Missouri (data.mo.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.mo.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.montgomerycountymd.gov",
+   "label": "Montgomery County, MD",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.montgomerycountymd.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.nashville.gov",
+   "label": "Nashville / Davidson County",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.nashville.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.nj.gov",
+   "label": "State of New Jersey (data.nj.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.nj.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.nola.gov",
+   "label": "City of New Orleans",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.nola.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ny.gov",
+   "label": "State of New York (data.ny.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.ny.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.oaklandca.gov",
+   "label": "City of Oakland",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.oaklandca.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.ok.gov",
+   "label": "State of Oklahoma (data.ok.gov)",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.ok.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 331,
+    "CC-BY-4.0": 64
+   },
+   "undeclared_share": 0.838,
+   "auth": "None required"
+  },
+  {
+   "id": "data.oregon.gov",
+   "label": "State of Oregon (data.oregon.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.oregon.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.pa.gov",
+   "label": "Commonwealth of Pennsylvania (data.pa.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.pa.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.providenceri.gov",
+   "label": "City of Providence, RI",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.providenceri.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.raleighnc.gov",
+   "label": "City of Raleigh",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.raleighnc.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.richmondgov.com",
+   "label": "City of Richmond, VA",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.richmondgov.com",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.sacog.org",
+   "label": "SACOG — Sacramento Area Council of Governments",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://data.sacog.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "data.sanantonio.gov",
+   "label": "City of San Antonio",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.sanantonio.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 31
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.sanjoseca.gov",
+   "label": "City of San José",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.sanjoseca.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 152,
+    "CC0-1.0": 16,
+    "UNDECLARED": 2
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "data.seattle.gov",
+   "label": "City of Seattle",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.seattle.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.sfgov.org",
+   "label": "City & County of San Francisco",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.sfgov.org",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.texas.gov",
+   "label": "State of Texas (data.texas.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.texas.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.wa.gov",
+   "label": "State of Washington (data.wa.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://data.wa.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "data.wprdc.org",
+   "label": "Western Pennsylvania Regional Data Center (Pittsburgh)",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://data.wprdc.org",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC0-1.0": 123,
+    "UNDECLARED": 121,
+    "CC-BY-4.0": 99,
+    "US-PD": 8,
+    "CC-BY-SA-4.0": 5,
+    "CC-BY-NC": 4
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "datacatalog.cookcountyil.gov",
+   "label": "Cook County, IL",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://datacatalog.cookcountyil.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "datahub.cmap.illinois.gov",
+   "label": "CMAP — Chicago Metropolitan Agency for Planning",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://datahub.cmap.illinois.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "edg-epa.hub.arcgis.com",
+   "label": "EPA Environmental Dataset Gateway",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://edg-epa.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "egis-lacounty.hub.arcgis.com",
+   "label": "Los Angeles County (eGIS Open Data)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://egis-lacounty.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 965
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "geodata.floridagio.gov",
+   "label": "State of Florida (Florida GeoData)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geodata.floridagio.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "geodata.vermont.gov",
+   "label": "State of Vermont (geodata.vermont.gov)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geodata.vermont.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "geohub.houstontx.gov",
+   "label": "City of Houston (Houston Public Works)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geohub.houstontx.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "geohub.lacity.org",
+   "label": "City of Los Angeles GeoHub",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://geohub.lacity.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 1679,
+    "CC-BY-4.0": 17
+   },
+   "undeclared_share": 0.99,
+   "auth": "None for public items"
+  },
+  {
+   "id": "gis-odnr.opendata.arcgis.com",
+   "label": "Ohio Department of Natural Resources — GIS Open Data",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gis-odnr.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 1827
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "gis-pdx.opendata.arcgis.com",
+   "label": "City of Portland, OR (PortlandMaps)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gis-pdx.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "gis.data.mass.gov",
+   "label": "Massachusetts (MassGIS)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gis.data.mass.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "gis.data.mn.gov",
+   "label": "Minnesota Geospatial Commons",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gis.data.mn.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 2138,
+    "PUBLIC-DOMAIN": 416,
+    "ODbL-1.0": 7,
+    "CC-BY-4.0": 1,
+    "CC0-1.0": 1
+   },
+   "undeclared_share": 0.834,
+   "auth": "None for public items"
+  },
+  {
+   "id": "gisdata-scag.opendata.arcgis.com",
+   "label": "SCAG — Southern California Association of Governments",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gisdata-scag.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "gisdata.tucsonaz.gov",
+   "label": "City of Tucson",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gisdata.tucsonaz.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "gishub-h-gac.hub.arcgis.com",
+   "label": "H-GAC — Houston-Galveston Area Council",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gishub-h-gac.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 260
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "gishubdata-ndgov.hub.arcgis.com",
+   "label": "North Dakota GIS Hub Data Portal",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://gishubdata-ndgov.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 404
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "hub.kansasgis.org",
+   "label": "Kansas Geoportal (DASC)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://hub.kansasgis.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 507,
+    "CC0-1.0": 148
+   },
+   "undeclared_share": 0.774,
+   "auth": "None for public items"
+  },
+  {
+   "id": "hudgis-hud.opendata.arcgis.com",
+   "label": "HUD Open Data",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://hudgis-hud.opendata.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "mainegeolibrary-maine.hub.arcgis.com",
+   "label": "Maine GeoLibrary",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://mainegeolibrary-maine.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 1665,
+    "PUBLIC-DOMAIN": 1
+   },
+   "undeclared_share": 0.999,
+   "auth": "None for public items"
+  },
+  {
+   "id": "maps-semcog.opendata.arcgis.com",
+   "label": "SEMCOG — Southeast Michigan Council of Governments",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://maps-semcog.opendata.arcgis.com",
+   "tos_url": "https://maps-semcog.opendata.arcgis.com/pages/copyright-license-agreement",
+   "default_licence": "SEMCOG-CLA",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "SEMCOG-CLA": 66
+   },
+   "undeclared_share": 0,
+   "auth": "None for public items"
+  },
+  {
+   "id": "open-data.bouldercolorado.gov",
+   "label": "City of Boulder, CO",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://open-data.bouldercolorado.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata-geospatialdenver.hub.arcgis.com",
+   "label": "City & County of Denver",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata-geospatialdenver.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.columbus.gov",
+   "label": "City of Columbus, OH",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.columbus.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.dc.gov",
+   "label": "Washington, DC (Open Data DC)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.dc.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.gis.utah.gov",
+   "label": "Utah Geospatial Resource Center (UGRC)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.gis.utah.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.hawaii.gov",
+   "label": "State of Hawaii (opendata.hawaii.gov)",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://opendata.hawaii.gov",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "UNDECLARED": 453,
+    "CC-BY-4.0": 80,
+    "US-PD": 1
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "opendata.maryland.gov",
+   "label": "State of Maryland (opendata.maryland.gov)",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://opendata.maryland.gov",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "opendata.minneapolismn.gov",
+   "label": "City of Minneapolis",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.minneapolismn.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendata.mtc.ca.gov",
+   "label": "MTC/ABAG — SF Bay Area (Metropolitan Transportation Commission)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendata.mtc.ca.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opendataphilly.org",
+   "label": "OpenDataPhilly (City of Philadelphia)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opendataphilly.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "opengisdata.ky.gov",
+   "label": "Kentucky Geoportal (KyGeoNet)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://opengisdata.ky.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "CC0-1.0": 390,
+    "UNDECLARED": 160,
+    "CC-BY-4.0": 15,
+    "ODbL-1.0": 1
+   },
+   "undeclared_share": 0.283,
+   "auth": "None for public items"
+  },
+  {
+   "id": "psrc-psregcncl.hub.arcgis.com",
+   "label": "PSRC — Puget Sound Regional Council",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://psrc-psregcncl.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "public-morpc.hub.arcgis.com",
+   "label": "MORPC — Mid-Ohio Regional Planning Commission",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://public-morpc.hub.arcgis.com",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 59
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  },
+  {
+   "id": "vgin.vdem.virginia.gov",
+   "label": "Commonwealth of Virginia (VGIN)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://vgin.vdem.virginia.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "www.dallasopendata.com",
+   "label": "City of Dallas",
+   "country": "US",
+   "platform": "Socrata / Tyler Data & Insights",
+   "connector": "socrata",
+   "base_url": "https://www.dallasopendata.com",
+   "licence_source": "Per-dataset metadata via api/catalog/v1 (`license` field)",
+   "auth": "App token strongly recommended (X-App-Token header)"
+  },
+  {
+   "id": "www.indianamap.org",
+   "label": "IndianaMap",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://www.indianamap.org",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 790,
+    "CC0-1.0": 46,
+    "CC-BY-4.0": 4
+   },
+   "undeclared_share": 0.94,
+   "auth": "None for public items"
+  },
+  {
+   "id": "www.nconemap.gov",
+   "label": "North Carolina (NC OneMap)",
+   "country": "US",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://www.nconemap.gov",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "auth": "None for public items"
+  },
+  {
+   "id": "www.phoenixopendata.com",
+   "label": "City of Phoenix Open Data",
+   "country": "US",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://www.phoenixopendata.com",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "CC-BY-4.0": 101,
+    "UNDECLARED": 35
+   },
+   "auth": "None required"
+  },
+  {
+   "id": "catalogodatos.gub.uy",
+   "label": "Catálogo de Datos Abiertos — Uruguay (national)",
+   "country": "UY",
+   "platform": "CKAN",
+   "connector": "ckan",
+   "base_url": "https://catalogodatos.gub.uy",
+   "licence_source": "Per-dataset `license_id` field via package_search / package_show",
+   "observed_licences": {
+    "LDA-UY-0.1": 2663,
+    "UNDECLARED": 26,
+    "CC0-1.0": 14,
+    "CC-BY-4.0": 12,
+    "CC-BY-NC": 1,
+    "CC-BY-SA-4.0": 1
+   },
+   "undeclared_share": 0.01,
+   "auth": "None required"
+  },
+  {
+   "id": "odp-cctegis.opendata.arcgis.com",
+   "label": "City of Cape Town Open Data",
+   "country": "ZA",
+   "platform": "Esri ArcGIS Hub",
+   "connector": "arcgis-hub",
+   "base_url": "https://odp-cctegis.opendata.arcgis.com",
+   "tos_url": "https://www.capetown.gov.za/General/Terms-of-use-open-data",
+   "licence_source": "Item `licenseInfo` field — free text, often HTML; needs parsing",
+   "observed_licences": {
+    "UNDECLARED": 258
+   },
+   "undeclared_share": 1,
+   "auth": "None for public items"
+  }
+ ]
+}
